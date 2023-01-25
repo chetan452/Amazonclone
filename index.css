@@ -14,25 +14,100 @@ body{
   justify-content: space-between; */
   font-size: 1.5rem;
   color: whitesmoke;
-  background-color: rgb(21, 21, 118);
+  background-color: rgb(44, 44, 215);
+  border: 2px solid black;
 }
 .nav{
   display: flex;
   justify-content: space-around;
+  height: 3rem;
 }
 
-.loc{
+.loc button{
   display: flex;
-  justify-content: space-around;
+background-color: rgb(44, 44, 215);
+color: aliceblue;
+border: none;
+font-size: 1.5rem;
+margin: 5px;
+padding:2px;
 }
 .nav input{
   border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 20%;
-  height: 1.5rem;
+  height: 50%;
+  border-radius: 1rem;
 }
-.cart i{
-  background-color:  rgb(21, 21, 118);
-  color: whitesmoke;
+.cart {
+  background-color: rgb(44, 44, 215);
+  color: aliceblue;
   border: none;
+  font-size: 1.5rem;
+  margin: 5px;
+  width: 2rem;
+  height: 50%;
+}
+.signin {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(44, 44, 215);
+  color: aliceblue;
+  border: none;
+  font-size: 1.5rem;
+  margin: 5px;
+  width: 2rem;
+  height: 50%;
+}
+.nav img{
+  width: 10%;
+  height: 100%;
+}
+.second{
+background-color: rgb(44, 44, 215);
+}
+.nav2{
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+}
+.nav2 a{
+  display: flex;
+  color: aliceblue;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+}
+.nav2 button img{
+   /* background-color: rgb(21, 21, 118);
+  color: aliceblue; 
+  border: none; 
+  font-size: 1.5rem; */
+  margin: 5px;
+  width: 2rem;
+  height: 50%;
+}
+
+
+ .mainimg{
+  width: 100%;
+  
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  height: 17rem;
+}
+.card img{
+  width: 40%;
+}
+.card .btn{
   font-size: 2rem;
+}
+.foot{
+  display: flex;
+  background-color: gray;
+  justify-content: space-around;
 }
