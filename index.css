@@ -79,6 +79,9 @@ background-color: rgb(44, 44, 215);
   margin: 5px;
   padding: 5px;
 }
+.nav2 a:hover{
+  background-color: gray;
+}
 .nav2 button img{
    /* background-color: rgb(21, 21, 118);
   color: aliceblue; 
@@ -97,17 +100,45 @@ background-color: rgb(44, 44, 215);
 .container{
   display: flex;
   justify-content: space-around;
+  margin-top: 3px;
+  height: 200px;
   border: 2px solid black;
-  height: 17rem;
 }
 .card img{
-  width: 40%;
+  width: 150px;
+  height: 150px;
 }
-.card .btn{
+.btn button{
+  margin: 3px;
+  background-color: orange;
+  font-size: 1rem;
+
+}
+.btn button:hover{
+  color: beige;
+}
+.backtop a{
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
+  color: aliceblue;
+  text-decoration: none;
+  align-items: center;
+  background-color: black;
 }
 .foot{
   display: flex;
-  background-color: gray;
+  background-color: rgb(43, 43, 51);
   justify-content: space-around;
+}
+.foot .content a{
+  color:whitesmoke;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.foot .content a:hover{
+color: antiquewhite;
+}
+.foot .content a h3:hover{
+color: antiquewhite;
 }
